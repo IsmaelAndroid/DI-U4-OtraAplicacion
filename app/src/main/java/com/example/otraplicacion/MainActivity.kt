@@ -41,8 +41,8 @@ fun PantallaPrincipal() {
         Text("Proyecto 2: consume componentes de otro proyecto", style = MaterialTheme.typography.bodyMedium)
         HorizontalDivider()
 
-        // TODO (paso 4): aqui ira PantallaExtra(), que usa BadgeEstado del proyecto IsmaelUIKit
-        Text("Aqui pondremos el componente que viene en el .aar")
+        Text("Componente que viene en el .aar:")
+        PantallaExtra()                       // usa BadgeEstado del proyecto IsmaelUIKit
     }
 }
 
